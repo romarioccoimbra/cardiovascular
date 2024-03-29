@@ -9,9 +9,9 @@ _O site será composto por uma introdução, seções de texto sobre o conteúdo
 
 [x] Desenvolvimento do esqueleto do site.
 
-[ ] Adicionar o conteúdo do site.
+[x] Adicionar o conteúdo do site.
 
-[ ] Adicionar a estilização do site.
+[x] Adicionar a estilização do site.
 
 [ ] Adicionar funcionalidades ao site (Quiz).
 
