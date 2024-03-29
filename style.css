@@ -86,20 +86,44 @@ ul li {
 
 /* Estilos Quiz */
 button {
-  background-color: #b32e2e;
+  background-color: #6e1b1b;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2em;
   color: #fff;
   border: none;
-  padding: 15px 30px;
+  text-align: center;
+  margin: 20px auto;
+  display: block;
+  padding: 10px;
+  width: 80%;
+  min-height: 60px;
   cursor: pointer;
   border-radius: 5px;
-  margin-top: 20px;
   transition: background-color 0.3s ease;
 }
 
-button:hover {
+#questao {
+  font-family: Helvetica, sans-serif;
+  color: #000;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#explicacao {
+  background-color: #d9dee3;
+  padding: 20px;
+  border-radius: 30px;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 10px;
+}
+
+#prox-btn {
   background-color: #b32e2e;
 }
 
+/* Estilos Footer */
 footer {
   background-color: #333;
   text-align: center;

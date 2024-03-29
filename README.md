@@ -13,7 +13,9 @@ _O site será composto por uma introdução, seções de texto sobre o conteúdo
 
 [x] Adicionar a estilização do site.
 
-[ ] Adicionar funcionalidades ao site (Quiz).
+[x] Adicionar funcionalidades ao site (Quiz).
+
+[ ] Reformulação do layout para diferentes telas.
 
 [ ] Refatoração e otimização do projeto.
 
