@@ -158,11 +158,10 @@ function checkAnswer(isCorrect) {
 
 nextButton.addEventListener("click", () => {
   currentQuestionIndex++;
-  if (currentQuestionIndex < quizData.length) {
-    loadQuestion();
-  } else {
-    alert("Fim do quiz!");
+  if (currentQuestionIndex > quizData.length) {
+    currentQuestionIndex = 0;
   }
+  loadQuestion();
 });
 
 loadQuestion();
