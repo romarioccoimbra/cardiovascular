@@ -7,7 +7,7 @@ Este é um projeto de um site que incentiva o aprendizado sobre o sistema cardio
 [x] Definição do conteúdo, design e construção do site.
 _O site será composto por uma introdução, seções de texto sobre o conteúdo, um Quiz interativo e um rodapé._
 
-[ ] Desenvolvimento do esqueleto do site.
+[x] Desenvolvimento do esqueleto do site.
 
 [ ] Adicionar o conteúdo do site.
 
