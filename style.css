@@ -1,0 +1,136 @@
+/* style.css */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  font-size: 1.75rem;
+}
+
+h3 {
+  color: #444;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+h4 {
+  color: #555;
+  font-size: 1.25rem;
+  margin-top: 15px;
+}
+
+p {
+  margin: 10px 0;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+strong {
+  color: #222;
+}
+
+.quiz-container {
+  background: #f8f8f8;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#opcao {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+#prox-btn {
+  margin-top: 20px;
+}
+
+/* Adaptação para telas menores que 400px */
+@media (max-width: 400px) {
+  main {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  li {
+    font-size: 0.95rem;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}
