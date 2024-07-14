@@ -9,17 +9,63 @@
   <body>
     <main>
       <h1>Sistema Circulatório</h1>
-      <div>
-        <h2>Coração</h2>
-      </div>
 
-      <div>
+      <section class="ciclo-circulatorio">
+        <h2>O ciclo do sistema circulatório</h2>
+        <div class="texto-imagem">
+          <p>
+            O sangue, começando pelo ventrículo esquerdo do coração, é bombeado
+            pela artéria aorta para todo o corpo, onde entrega oxigênio e
+            nutrientes às células. Depois, retorna ao coração através das veias
+            cavas inferior/superior, entrando no átrio direito. Em seguida,
+            passa para o ventrículo direito e é bombeado pela artéria pulmonar
+            para os pulmões, onde recebe oxigênio. O sangue oxigenado volta ao
+            coração pelo átrio esquerdo através das veias pulmonares,
+            completando o ciclo ao entrar novamente no ventrículo esquerdo.
+          </p>
+          <img
+            src="./imgs/circulacao.gif"
+            alt="Imagem com legendas das areas do coração"
+            class="img-centralizada"
+          />
+        </div>
+      </section>
+
+      <section class="areas-coracao">
+        <h2>Áreas do coração</h2>
+        <div class="img-lado-a-lado">
+          <img
+            src="./imgs/areas_coracao.png"
+            alt="Imagem com legendas das areas do coração"
+            class="img-alinhada"
+          />
+          <img
+            src="./imgs/areas_coracao2.gif"
+            alt="GIF com legendas das areas do coração"
+            class="img-alinhada"
+          />
+        </div>
+      </section>
+
+      <section class="funcionamento-eletrico">
         <h2>Funcionamento Elétrico do Coração</h2>
         <p>
           O funcionamento elétrico do coração é como um sistema de comando que
           controla os batimentos cardíacos. Vamos entender isso em etapas
           simples:
         </p>
+        <div class="texto-imagem">
+          <img
+            src="./imgs/eletrica2.webp"
+            alt="GIF com legendas das areas do coração"
+            class="img-alinhada"
+          />
+          <img
+            src="./imgs/eletrica.webp"
+            alt="GIF com legendas das areas do coração"
+            class="img-alinhada"
+          />
+        </div>
         <ol>
           <li>
             <strong>Nó Sinoatrial (SA)</strong>: É o "marca-passo natural" do
@@ -46,41 +92,56 @@
             pulmões e para o resto do corpo).
           </li>
         </ol>
+
         <p>
           Esse processo acontece de forma contínua e coordenada, resultando em
           batimentos cardíacos regulares e eficientes. Em resumo, a parte
           elétrica do coração é um sistema de sinalização que garante que as
           contrações do coração sejam coordenadas e eficazes.
         </p>
+        <img
+          src="./imgs/eletrica3.gif"
+          alt="GIF com legendas das areas do coração"
+          class="img-centralizada"
+        />
+      </section>
 
+      <section class="circulacao">
         <h2>Pequena e Grande Circulação</h2>
-        <h3>Pequena Circulação</h3>
-        <p>
-          A pequena circulação, ou circulação pulmonar, é o trajeto que o sangue
-          faz do coração para os pulmões e de volta ao coração. O sangue pobre
-          em oxigênio sai do ventrículo direito, vai para os pulmões através das
-          artérias pulmonares, onde recebe oxigênio, e retorna ao átrio esquerdo
-          do coração pelas veias pulmonares.
-        </p>
+        <div class="circulacao-texto">
+          <h3>Pequena Circulação</h3>
+          <p>
+            A pequena circulação, ou circulação pulmonar, é o trajeto que o
+            sangue faz do coração para os pulmões e de volta ao coração. O
+            sangue pobre em oxigênio sai do ventrículo direito, vai para os
+            pulmões através das artérias pulmonares, onde recebe oxigênio, e
+            retorna ao átrio esquerdo do coração pelas veias pulmonares.
+          </p>
 
-        <h3>Grande Circulação</h3>
-        <p>
-          A grande circulação, ou circulação sistêmica, é o trajeto que o sangue
-          faz do coração para todo o corpo e de volta ao coração. O sangue rico
-          em oxigênio sai do ventrículo esquerdo, é distribuído por todo o corpo
-          através da aorta e suas ramificações, e retorna ao átrio direito do
-          coração através das veias cavas, agora pobre em oxigênio.
-        </p>
-      </div>
+          <h3>Grande Circulação</h3>
+          <p>
+            A grande circulação, ou circulação sistêmica, é o trajeto que o
+            sangue faz do coração para todo o corpo e de volta ao coração. O
+            sangue rico em oxigênio sai do ventrículo esquerdo, é distribuído
+            por todo o corpo através da aorta e suas ramificações, e retorna ao
+            átrio direito do coração através das veias cavas, agora pobre em
+            oxigênio.
+          </p>
+        </div>
+        <img
+          src="./imgs/pgcirculacao.jpg"
+          alt="Imagem ilustrando a pequena e grande circulação"
+          class="img-centralizada"
+        />
+      </section>
 
-      <div class="quiz-container">
+      <section class="quiz-container">
         <h2>Quiz!</h2>
-        <p>Questões para fixação</p>
         <h3 id="questao"></h3>
         <div id="opcao"></div>
         <div id="explicacao"></div>
         <button id="prox-btn">Próximo</button>
-      </div>
+      </section>
     </main>
     <script src="script.js"></script>
   </body>

@@ -1,66 +1,75 @@
-/* style.css */
 body {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
 }
 
 main {
   max-width: 800px;
-  margin: 20px auto;
+  margin: auto;
   padding: 20px;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-  text-align: center;
-  color: #222;
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-h2 {
-  color: #333;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 5px;
-  margin-top: 30px;
-  font-size: 1.75rem;
-}
-
+h1,
+h2,
 h3 {
-  color: #444;
-  font-size: 1.5rem;
-  margin-top: 20px;
-}
-
-h4 {
-  color: #555;
-  font-size: 1.25rem;
-  margin-top: 15px;
+  text-align: center;
+  color: #2c3e50;
 }
 
 p {
-  margin: 10px 0;
   text-align: justify;
-  font-size: 1rem;
+  color: #34495e;
 }
 
-ol {
-  padding-left: 20px;
+.img-centralizada {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
 }
 
-li {
-  margin-bottom: 10px;
-  font-size: 1rem;
+.texto-imagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-strong {
-  color: #222;
+.img-lado-a-lado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-alinhada {
+  margin: 10px;
+  max-width: 100%;
+}
+
+@media (min-width: 600px) {
+  .img-lado-a-lado {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .img-alinhada {
+    max-width: 48%;
+  }
+
+  .texto-imagem {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .texto-imagem img {
+    max-width: 48%;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
 }
 
 .quiz-container {
@@ -97,40 +106,4 @@ button:hover {
 
 #prox-btn {
   margin-top: 20px;
-}
-
-/* Adaptação para telas menores que 400px */
-@media (max-width: 400px) {
-  main {
-    padding: 15px;
-  }
-
-  h1 {
-    font-size: 1.75rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  h3 {
-    font-size: 1.25rem;
-  }
-
-  h4 {
-    font-size: 1.1rem;
-  }
-
-  p {
-    font-size: 0.95rem;
-  }
-
-  li {
-    font-size: 0.95rem;
-  }
-
-  button {
-    padding: 10px;
-    font-size: 0.9rem;
-  }
 }
