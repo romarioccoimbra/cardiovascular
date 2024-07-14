@@ -46,7 +46,7 @@ const quizData = [
     options: [
       "Artéria aorta",
       "Veias pulmonares",
-      "Átrio esquerdo",
+      "Artéria pulmonar",
       "Ventrículo esquerdo",
     ],
     correctAnswer: "Artéria pulmonar",
@@ -109,7 +109,7 @@ const quizData = [
   },
   {
     question:
-      "Qual das seguintes veias transporta sangue oxigenado para o átrio direito do coração?",
+      "Qual das seguintes veias transporta sangue oxigenado para o átrio esquerdo do coração?",
     options: [
       "Veia cava inferior",
       "Veia pulmonar",
@@ -175,17 +175,16 @@ const quizData = [
       "O pericárdio é a membrana fibrosa que envolve o coração, fornecendo proteção e suporte estrutural.",
   },
   {
-    question:
-      "Qual é a principal artéria coronária que fornece sangue ao coração?",
+    question: "Qual é a principal artéria que fornece sangue ao coração?",
     options: [
       "Artéria aorta",
       "Artéria pulmonar",
       "Artéria carótida",
-      "Artéria coronária direita",
+      "Artéria coronária",
     ],
-    correctAnswer: "Artéria coronária direita",
+    correctAnswer: "Artéria coronária",
     explanation:
-      "A artéria coronária direita é uma das principais artérias coronárias que fornecem sangue ao próprio músculo cardíaco (miocárdio).",
+      "A artéria coronária direita e esquerda são as principais artérias coronárias que fornecem sangue ao próprio músculo cardíaco (miocárdio).",
   },
   {
     question: "Qual é a função das válvulas cardíacas no sistema circulatório?",
@@ -352,12 +351,12 @@ const quizData = [
     question:
       "Por que o sangue retorna ao átrio direito através das veias cavas na grande circulação?",
     options: [
-      "Para ser oxigenado nos pulmões",
-      "Para ser distribuído pelos pulmões",
-      "Para ser bombeado pelo ventrículo direito",
-      "Para ser reabastecido com nutrientes",
+      "Para ser desoxigenado nos pulmões",
+      "Para ser distribuído pelo corpo",
+      "Para ser bombeado pelo ventrículo esquerdo",
+      "Para ser reabastecido com nutrientes e oxigênio",
     ],
-    correctAnswer: "Para ser reabastecido com nutrientes",
+    correctAnswer: "Para ser reabastecido com nutrientes e oxigênio",
     explanation:
       "Na grande circulação, o sangue retorna ao átrio direito através das veias cavas para ser reabastecido com nutrientes e oxigênio.",
   },
