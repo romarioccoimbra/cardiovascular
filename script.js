@@ -101,14 +101,6 @@ const quizData = [
   },
   {
     question:
-      "Qual é a camada mais interna do coração, que reveste as câmaras e as válvulas?",
-    options: ["Epicárdio", "Miocárdio", "Endocárdio", "Pericárdio"],
-    correctAnswer: "Endocárdio",
-    explanation:
-      "O endocárdio é a camada mais interna do coração, formando a superfície interna das câmaras e das válvulas cardíacas.",
-  },
-  {
-    question:
       "Qual das seguintes veias transporta sangue oxigenado para o átrio esquerdo do coração?",
     options: [
       "Veia cava inferior",
@@ -147,13 +139,6 @@ const quizData = [
       "A válvula tricúspide está localizada entre o átrio direito e o ventrículo direito do coração humano.",
   },
   {
-    question: "Qual é a camada muscular espessa e contrátil do coração?",
-    options: ["Epicárdio", "Miocárdio", "Endocárdio", "Pericárdio"],
-    correctAnswer: "Miocárdio",
-    explanation:
-      "O miocárdio é a camada muscular espessa do coração, responsável por contrair e bombear sangue para todo o corpo.",
-  },
-  {
     question:
       "Qual das seguintes veias transporta sangue desoxigenado para o átrio direito do coração?",
     options: [
@@ -166,14 +151,7 @@ const quizData = [
     explanation:
       "A veia cava superior transporta sangue desoxigenado dos membros superiores e da cabeça para o átrio direito do coração.",
   },
-  {
-    question:
-      "Qual é a membrana que envolve o coração e forma uma bolsa fibrosa que protege e suporta o coração?",
-    options: ["Epicárdio", "Miocárdio", "Endocárdio", "Pericárdio"],
-    correctAnswer: "Pericárdio",
-    explanation:
-      "O pericárdio é a membrana fibrosa que envolve o coração, fornecendo proteção e suporte estrutural.",
-  },
+
   {
     question: "Qual é a principal artéria que fornece sangue ao coração?",
     options: [
@@ -221,18 +199,6 @@ const quizData = [
     correctAnswer: "Válvula aórtica e válvula pulmonar",
     explanation:
       "As válvulas semilunares são a válvula aórtica, que se abre a partir do ventrículo esquerdo para a artéria aorta, e a válvula pulmonar, que se abre a partir do ventrículo direito para a artéria pulmonar.",
-  },
-  {
-    question: "Qual é a função do pericárdio no coração?",
-    options: [
-      "Conduzir eletricidade pelo coração",
-      "Proteger o coração e manter seu posicionamento",
-      "Produzir plaquetas",
-      "Transportar oxigênio pelo corpo",
-    ],
-    correctAnswer: "Proteger o coração e manter seu posicionamento",
-    explanation:
-      "O pericárdio é uma membrana fibrosa que envolve e protege o coração, além de mantê-lo em sua posição correta no tórax.",
   },
   {
     question: "Qual é a função principal do Nó Sinoatrial (SA) no coração?",
