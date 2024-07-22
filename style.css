@@ -60,6 +60,11 @@ p {
   .texto-imagem {
     flex-direction: row;
     justify-content: space-between;
+    margin: 30px 0;
+  }
+
+  .texto-imagem p {
+    margin: 0 50px;
   }
 
   .texto-imagem img {
