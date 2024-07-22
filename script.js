@@ -269,7 +269,7 @@ const quizData = [
       "Qual é o trajeto do sangue na pequena circulação (circulação pulmonar)?",
     options: [
       "Do ventrículo esquerdo para os pulmões através das artérias pulmonares, e retorna ao átrio esquerdo pelas veias pulmonares",
-      "Do ventrículo direito para os pulmões através das artérias pulmonares, e retorna ao átrio direito pelas veias pulmonares",
+      "Do ventrículo direito para os pulmões através das artérias pulmonares, e retorna ao átrio esquerdo pelas veias pulmonares",
       "Do átrio esquerdo para os pulmões através das artérias pulmonares, e retorna ao ventrículo esquerdo pelas veias pulmonares",
       "Do átrio direito para os pulmões através das artérias pulmonares, e retorna ao ventrículo direito pelas veias pulmonares",
     ],
@@ -283,7 +283,7 @@ const quizData = [
       "Qual é o trajeto do sangue na grande circulação (circulação sistêmica)?",
     options: [
       "Do átrio esquerdo para todo o corpo através da aorta, e retorna ao ventrículo esquerdo pelas veias cavas",
-      "Do ventrículo esquerdo para todo o corpo através da aorta, e retorna ao átrio esquerdo pelas veias cavas",
+      "Do ventrículo esquerdo para todo o corpo através da aorta, e retorna ao átrio direito pelas veias cavas",
       "Do átrio direito para todo o corpo através da aorta, e retorna ao ventrículo direito pelas veias cavas",
       "Do ventrículo direito para todo o corpo através da aorta, e retorna ao átrio direito pelas veias cavas",
     ],
@@ -298,12 +298,12 @@ const quizData = [
     options: [
       "Nos átrios",
       "Nas artérias pulmonares",
-      "Nos capilares dos pulmões",
+      "Alvéolos e vasos capilares nos pulmões",
       "Nos ventrículos",
     ],
-    correctAnswer: "Nos capilares dos pulmões",
+    correctAnswer: "Alvéolos e vasos capilares nos pulmões",
     explanation:
-      "A troca de oxigênio e dióxido de carbono ocorre nos capilares dos pulmões durante a pequena circulação.",
+      "A troca gasosa ocorre nos milhões de alvéolos nos pulmões e nos vasos capilares que os envolvem, durante a pequena circulação.",
   },
   {
     question:
